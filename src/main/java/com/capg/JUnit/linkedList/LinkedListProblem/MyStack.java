@@ -21,4 +21,17 @@ public class MyStack {
 		return myLinkedList.head;
 		
 	}
+
+	public INode pop() {
+		return myLinkedList.pop();
+	}
+
+	public int size() {
+		return myLinkedList.sizeOfList();
+		
+	}
+
+	public boolean empty() {
+		return myLinkedList.isEmpty();
+	}
 }
